@@ -1,7 +1,7 @@
 import express from "express";
 import db from "../db/conn.js";
 import { ObjectId } from "mongodb";
-import * as learnerSchema from "../models/Learner.js";
+import * as learnerSchema from "../models/learner.js";
 
 const router = express.Router();
 
